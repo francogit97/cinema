@@ -1,0 +1,43 @@
+.body   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background-image: url("./imagenes/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
+background-position: center;
+background-size: cover;
+font-family:"Montserrat", sans-serif;
+}
+
+
+
+.hero-nav   {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+}
+
+.hero-ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+   
+}
+ul a { 
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    
+}
+
+.class-img {
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 80px;
+    box-shadow: 29px 21px 47px -25px black;
+}
+
