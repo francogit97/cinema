@@ -6,6 +6,7 @@ background-image: url("./imagenes/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
 background-position: center;
 background-size: cover;
 font-family:"Montserrat", sans-serif;
+color: white;
 }
 
 
@@ -41,3 +42,65 @@ ul a {
     box-shadow: 29px 21px 47px -25px black;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+#hero {
+    margin-top: 65px;
+    padding: 20px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-info {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+width: 50%;
+}
+
+.h1 {
+    font-size: x-large;
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+.hero-info p {
+    font-size: 20px;
+    width: 80%;
+    color: white;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    gap: 20px;
+    
+}
+
+
+.span {
+    color: green;
+    font-size: 20px;
+
+}
+
+.btn {
+    color: black;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
